@@ -39,7 +39,7 @@
       <section class="modal" v-if="produto" @click="fecharModal">
         <div class="modal_container">
           <div class="modal_img">
-            <img :src="produto.img" :alt="produto.nome" />
+            <img :src="produto.img" :alt="produto.nome" class="img_teste" />
           </div>
           <div clss="modal_dados">
             <button @click="produto = false" class="modal_fechar">X</button>
